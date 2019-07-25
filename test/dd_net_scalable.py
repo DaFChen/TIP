@@ -32,7 +32,7 @@ et_list = [20, 34, 38, 41, 42, 46, 55, 57, 89, 92, 99, 103, 105, 110, 125, 126, 
            1112, 1116, 1118, 1123, 1126, 1128, 1133, 1137, 1138, 1145, 1148, 1152, 1153, 1171, 1181, 1205]
 
 et_list = et_list
-feed_dict = load_data_torch("../data/", et_list, mono=True)
+feed_dict = load_data_torch("./data/", et_list, mono=True)
 
 [n_drug, n_feat_d] = feed_dict['d_feat'].shape
 n_et_dd = len(et_list)
