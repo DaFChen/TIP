@@ -159,7 +159,7 @@ def load_data_torch(path, dd_et_list, mono=True):
     return data
 
 
-def cut_data(low, high, name, path='/Users/nyxfer/Docu/FM-PSEP/data/'):
+def cut_data(low, high, name, path='./data/'):
     dd_et_list = list(range(1317))
 
     with open(path + 'graph_info.pkl', 'rb') as f:
